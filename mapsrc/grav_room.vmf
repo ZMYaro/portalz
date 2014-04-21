@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "110"
+	"mapversion" "112"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "110"
+	"mapversion" "112"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10871,10 +10871,10 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-144 0 0"
+	"BasisOrigin" "-136 0 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
-	"EndU" "5"
+	"EndU" "4.5"
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "signage/indicator_lights/indicator_lights_floor"
@@ -10882,11 +10882,11 @@ entity
 	"StartU" "0"
 	"StartV" "1"
 	"targetname" "room1_grav_indicator_lights"
-	"uv0" "-80 -4 0"
-	"uv1" "-80 4 0"
-	"uv2" "80 4 0"
-	"uv3" "80 -4 0"
-	"origin" "-144 0 0"
+	"uv0" "-72 -4 0"
+	"uv1" "-72 4 0"
+	"uv2" "72 4 0"
+	"uv3" "72 -4 0"
+	"origin" "-136 0 0"
 	editor
 	{
 		"color" "80 150 225"
@@ -12378,6 +12378,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "7807"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "-224 1.2517e-006 -3.8147e-006"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_floor"
+	"sides" "288"
+	"StartU" "0"
+	"StartV" "1"
+	"targetname" "room1_grav_indicator_lights"
+	"uv0" "-16 -16 0"
+	"uv1" "-16 16 0"
+	"uv2" "16 16 0"
+	"uv3" "16 -16 0"
+	"origin" "-224 1.2517e-006 -3.8147e-006"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
 	}
 }
 cameras
