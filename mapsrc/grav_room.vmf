@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "84"
+	"mapversion" "93"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "84"
+	"mapversion" "93"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8124,8 +8124,8 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnOpen" "room1_sw_cover,Open,,0,-1"
-		"OnClose" "room1_sw_cover,Close,,0,-1"
+		"OnOpen" "room1_door_counter,Add,1,0,-1"
+		"OnClose" "room1_door_counter,Subtract,1,0,-1"
 	}
 	solid
 	{
@@ -8613,8 +8613,8 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnOpen" "room1_nw_cover,Open,,0,-1"
-		"OnClose" "room1_nw_cover,Close,,0,-1"
+		"OnOpen" "room1_door_counter,Add,1,0,-1"
+		"OnClose" "room1_door_counter,Subtract,1,0,-1"
 	}
 	solid
 	{
@@ -9082,8 +9082,8 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnOpen" "room1_ne_cover,Open,,0,-1"
-		"OnClose" "room1_ne_cover,Close,,0,-1"
+		"OnOpen" "room1_door_counter,Add,1,0,-1"
+		"OnClose" "room1_door_counter,Subtract,1,0,-1"
 	}
 	solid
 	{
@@ -9531,8 +9531,8 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnOpen" "room1_se_cover,Open,,0,-1"
-		"OnClose" "room1_se_cover,Close,,0,-1"
+		"OnOpen" "room1_door_counter,Add,1,0,-1"
+		"OnClose" "room1_door_counter,Subtract,1,0,-1"
 	}
 	solid
 	{
@@ -10569,7 +10569,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/door_01_lftdoor_reference.mdl"
-	"parentname" "room1_end_door_left"
+	"parentname" "room1_door_left"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -10594,12 +10594,12 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/door_01_rtdoor_reference.mdl"
-	"parentname" "room1_end_door_right"
+	"parentname" "room1_door_right"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "16"
+	"spawnflags" "0"
 	"origin" "400 0 0"
 	editor
 	{
@@ -10619,7 +10619,7 @@ entity
 	"forceclosed" "0"
 	"health" "0"
 	"ignoredebris" "0"
-	"lip" "4"
+	"lip" "16"
 	"locked_sentence" "0"
 	"loopmovesound" "0"
 	"movedir" "0 90 0"
@@ -10630,10 +10630,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"spawnflags" "0"
-	"spawnpos" "1"
+	"spawnpos" "0"
 	"speed" "250"
 	"startclosesound" "Doors.FullClose8"
-	"targetname" "room1_end_door_left"
+	"targetname" "room1_door_left"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -10730,7 +10730,7 @@ entity
 	"forceclosed" "0"
 	"health" "0"
 	"ignoredebris" "0"
-	"lip" "4"
+	"lip" "16"
 	"locked_sentence" "0"
 	"loopmovesound" "0"
 	"movedir" "0 270 0"
@@ -10741,10 +10741,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"spawnflags" "0"
-	"spawnpos" "1"
+	"spawnpos" "0"
 	"speed" "250"
 	"startclosesound" "Doors.FullClose8"
-	"targetname" "room1_end_door_right"
+	"targetname" "room1_door_right"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -10829,6 +10829,30 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "4858"
+	"classname" "math_counter"
+	"max" "4"
+	"targetname" "room1_door_counter"
+	connections
+	{
+		"OnHitMax" "room1_door_left,Open,,0,-1"
+		"OnHitMax" "room1_door_right,Open,,0,-1"
+		"OnHitMax" "!self,SetHitMin,3,0,-1"
+		"OnHitMin" "room1_door_left,Close,,0,-1"
+		"OnHitMin" "room1_door_right,Close,,0,-1"
+		"OnHitMin" "!self,SetHitMin,0,0,-1"
+	}
+	"origin" "368 64 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
 	}
 }
 cameras
