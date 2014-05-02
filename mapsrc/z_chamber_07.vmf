@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "1737"
+	"mapversion" "1739"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1737"
+	"mapversion" "1739"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5286,9 +5286,9 @@ world
 		side
 		{
 			"id" "5360"
-			"plane" "(2168 -1280 64) (1464 -1280 64) (1464 -576 64)"
+			"plane" "(2176 -1280 64) (1464 -1280 64) (1464 -576 64)"
 			"material" "METAL/METAL_MODULAR_FLOOR001"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 65.7977] 0.252841"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5297,9 +5297,9 @@ world
 		side
 		{
 			"id" "5359"
-			"plane" "(1464 -1280 32) (2168 -1280 32) (2168 -576 32)"
+			"plane" "(1464 -1280 32) (2176 -1280 32) (2176 -576 32)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 1.79771] 0.252841"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5308,9 +5308,9 @@ world
 		side
 		{
 			"id" "5358"
-			"plane" "(2168 -1280 32) (1464 -1280 32) (1464 -1280 64)"
+			"plane" "(2176 -1280 32) (1464 -1280 32) (1464 -1280 64)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 1.79771] 0.252841"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5319,7 +5319,7 @@ world
 		side
 		{
 			"id" "5357"
-			"plane" "(2168 -576 32) (2168 -1280 32) (2168 -1280 64)"
+			"plane" "(2176 -576 32) (2176 -1280 32) (2176 -1280 64)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5330,9 +5330,9 @@ world
 		side
 		{
 			"id" "5356"
-			"plane" "(1464 -576 32) (2168 -576 32) (2168 -576 64)"
+			"plane" "(1464 -576 32) (2176 -576 32) (2176 -576 64)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 1.79771] 0.252841"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -82727,6 +82727,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "293669"
+		side
+		{
+			"id" "28285"
+			"plane" "(1664 -512 -64) (1664 -544 -64) (1632 -544 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28284"
+			"plane" "(1664 -544 -192) (1664 -512 -192) (1632 -512 -192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28283"
+			"plane" "(1632 -512 -64) (1632 -544 -64) (1632 -544 -192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28282"
+			"plane" "(1664 -544 -64) (1664 -512 -64) (1664 -512 -192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28281"
+			"plane" "(1632 -544 -64) (1664 -544 -64) (1664 -544 -192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28280"
+			"plane" "(1664 -512 -64) (1632 -512 -64) (1632 -512 -192)"
+			"material" "METAL/METALWALL_BTS_006B_GRADIENT"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 1 -256] 0.25"
+			"rotation" "180"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 226 235"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "242"
@@ -128489,8 +128565,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1002.84 -79.7157 221.834]"
-		"look" "[976.426 -75.5615 224.531]"
+		"position" "[1597.27 -471.736 367.365]"
+		"look" "[1573.75 -473.278 380.275]"
 	}
 }
 cordon
