@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5004"
-	"mapversion" "351"
+	"editorbuild" "6083"
+	"mapversion" "353"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "351"
+	"mapversion" "353"
 	"classname" "worldspawn"
 	"comment" "Decompiled by VMEX v0.98g from C:"
 	"detailmaterial" "detail/detailsprites"
@@ -22593,6 +22593,7 @@ entity
 	connections
 	{
 		"OnPlayerPickup" "tc17_cube_pickup_sound,PlaySound,,0,1"
+		"OnPlayerPickup" "cube_pickup_autosave,Save,,0,1"
 	}
 	"origin" "-1472 0 448"
 	editor
@@ -40062,6 +40063,20 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6768]"
+	}
+}
+entity
+{
+	"id" "23227"
+	"classname" "logic_autosave"
+	"targetname" "cube_pickup_autosave"
+	"origin" "-1376 32 224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
