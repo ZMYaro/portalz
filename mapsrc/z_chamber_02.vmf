@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5004"
-	"mapversion" "544"
+	"editorbuild" "6083"
+	"mapversion" "546"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "544"
+	"mapversion" "546"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34997,7 +34997,6 @@ entity
 	"angles" "0 0 0"
 	"DamageForce" "1"
 	"spawnflags" "0"
-	"targetname" "second_turret"
 	"origin" "448 448 1"
 	editor
 	{
@@ -35014,7 +35013,6 @@ entity
 	"angles" "0 0 0"
 	"DamageForce" "1"
 	"spawnflags" "0"
-	"targetname" "second_turret"
 	"origin" "448 384 0"
 	editor
 	{
@@ -35050,9 +35048,7 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "first_turret,Enable,,0,-1"
 		"OnStartTouch" "first_turret,FireBullet,,0.05,-1"
-		"OnStartTouch" "second_turret,Enable,,0,-1"
 		"OnStartTouch" "portalgun_stand_rotater,Stop,,1.5,-1"
 		"OnStartTouch" "portalgun,FirePortal1,,2,-1"
 		"OnStartTouch" "portalgun_stand_rotater,Start,,0,-1"
@@ -35590,7 +35586,6 @@ entity
 	"angles" "0 90 0"
 	"DamageForce" "1"
 	"spawnflags" "0"
-	"targetname" "upper_first_turret"
 	"origin" "96 576 192"
 	editor
 	{
