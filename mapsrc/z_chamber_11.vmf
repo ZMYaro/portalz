@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "301"
+	"mapversion" "313"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "301"
+	"mapversion" "313"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15469,9 +15469,9 @@ entity
 {
 	"id" "3780"
 	"classname" "light_spot"
-	"_cone" "55"
+	"_cone" "57"
 	"_exponent" "1"
-	"_inner_cone" "40"
+	"_inner_cone" "47"
 	"_light" "84 0 84 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -15491,9 +15491,9 @@ entity
 {
 	"id" "3805"
 	"classname" "light_spot"
-	"_cone" "55"
+	"_cone" "57"
 	"_exponent" "1"
-	"_inner_cone" "40"
+	"_inner_cone" "47"
 	"_light" "84 0 84 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -15513,9 +15513,9 @@ entity
 {
 	"id" "3815"
 	"classname" "light_spot"
-	"_cone" "55"
+	"_cone" "57"
 	"_exponent" "1"
-	"_inner_cone" "40"
+	"_inner_cone" "47"
 	"_light" "84 0 84 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -15535,9 +15535,9 @@ entity
 {
 	"id" "3844"
 	"classname" "light_spot"
-	"_cone" "55"
+	"_cone" "57"
 	"_exponent" "1"
-	"_inner_cone" "40"
+	"_inner_cone" "47"
 	"_light" "84 0 84 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -28747,7 +28747,7 @@ entity
 	"renderfx" "1"
 	"spawnflags" "1"
 	"StrikeTime" "1"
-	"texture" "sprites/bluelaser1.vmt"
+	"texture" "sprites/laserbeam.vmt"
 	"TextureScroll" "35"
 	"origin" "860 144 60"
 	editor
@@ -28774,7 +28774,7 @@ entity
 	"renderfx" "1"
 	"spawnflags" "1"
 	"StrikeTime" "1"
-	"texture" "sprites/bluelaser1.vmt"
+	"texture" "sprites/laserbeam.vmt"
 	"TextureScroll" "35"
 	"origin" "860 124 80"
 	editor
@@ -28801,7 +28801,7 @@ entity
 	"renderfx" "1"
 	"spawnflags" "1"
 	"StrikeTime" "1"
-	"texture" "sprites/bluelaser1.vmt"
+	"texture" "sprites/laserbeam.vmt"
 	"TextureScroll" "35"
 	"origin" "860 164 80"
 	editor
@@ -28828,7 +28828,7 @@ entity
 	"renderfx" "1"
 	"spawnflags" "1"
 	"StrikeTime" "1"
-	"texture" "sprites/bluelaser1.vmt"
+	"texture" "sprites/laserbeam.vmt"
 	"TextureScroll" "35"
 	"origin" "860 144 100"
 	editor
@@ -29107,6 +29107,450 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "17954"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_nw_top_corner"
+	"origin" "-32 32 95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17964"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_ne_top_corner"
+	"origin" "32 32 95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17968"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_se_top_corner"
+	"origin" "32 -32 95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17972"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_sw_top_corner"
+	"origin" "-32 -32 95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17984"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_sw_bottom_corner"
+	"origin" "-32 -32 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17986"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_nw_bottom_corner"
+	"origin" "-32 32 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17988"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_ne_bottom_corner"
+	"origin" "32 32 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "17990"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "room1_grav_indicator_se_bottom_corner"
+	"origin" "32 -32 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "18053"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_nw_top_corner"
+	"LightningStart" "room1_grav_indicator_nw_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "-36 36 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18078"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_sw_top_corner"
+	"LightningStart" "room1_grav_indicator_sw_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "-36 -36 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18084"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_se_top_corner"
+	"LightningStart" "room1_grav_indicator_se_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "36 -36 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18090"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_ne_top_corner"
+	"LightningStart" "room1_grav_indicator_ne_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "36 36 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18102"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_sw_bottom_corner"
+	"LightningStart" "room1_grav_indicator_nw_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "-36 0 36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18142"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_se_bottom_corner"
+	"LightningStart" "room1_grav_indicator_sw_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "0 -36 36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18157"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_ne_bottom_corner"
+	"LightningStart" "room1_grav_indicator_se_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "36 0 36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18188"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_nw_bottom_corner"
+	"LightningStart" "room1_grav_indicator_ne_bottom_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "0 36 36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18197"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_ne_top_corner"
+	"LightningStart" "room1_grav_indicator_nw_top_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "0 36 92"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18200"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_nw_top_corner"
+	"LightningStart" "room1_grav_indicator_sw_top_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "-36 0 92"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18203"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_se_top_corner"
+	"LightningStart" "room1_grav_indicator_ne_top_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "36 0 92"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "18206"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room1_grav_indicator_sw_top_corner"
+	"LightningStart" "room1_grav_indicator_se_top_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "0 -36 92"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
 	}
 }
 cameras
