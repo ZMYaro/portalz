@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "1126"
+	"mapversion" "1132"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1126"
+	"mapversion" "1132"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33763,7 +33763,7 @@ entity
 	"lifetime" "4"
 	"particletype" "0"
 	"rendercolor" "224 0 224"
-	"spawnflags" "1"
+	"spawnflags" "2"
 	"speed" "32"
 	"targetname" "grav1_embers"
 	solid
@@ -36129,6 +36129,7 @@ entity
 		"OnTrigger" "grav1_beam,TurnOn,,0,-1"
 		"OnTrigger" "grav1_indicator,Open,,0,-1"
 		"OnTrigger" "grav1_ticker,Enable,,0,-1"
+		"OnTrigger" "grav1_embers,Use,,0,-1"
 	}
 	"origin" "-264 240 9"
 	editor
@@ -36153,6 +36154,7 @@ entity
 		"OnTrigger" "grav1_beam,TurnOff,,0,-1"
 		"OnTrigger" "grav1_indicator,Close,,0,-1"
 		"OnTrigger" "grav1_ticker,Disable,,0,-1"
+		"OnTrigger" "grav1_embers,Use,,0,-1"
 	}
 	"origin" "-248 240 9"
 	editor
@@ -36218,6 +36220,7 @@ entity
 		"OnTrigger" "grav2_beam,TurnOn,,0,-1"
 		"OnTrigger" "grav2_indicator,Open,,0,-1"
 		"OnTrigger" "grav2_ticker,Enable,,0,-1"
+		"OnTrigger" "grav2_embers,Use,,0,-1"
 	}
 	"origin" "64 248 88"
 	editor
@@ -36242,6 +36245,7 @@ entity
 		"OnTrigger" "grav2_beam,TurnOff,,0,-1"
 		"OnTrigger" "grav2_indicator,Close,,0,-1"
 		"OnTrigger" "grav2_ticker,Disable,,0,-1"
+		"OnTrigger" "grav2_embers,Use,,0,-1"
 	}
 	"origin" "80 248 88"
 	editor
@@ -69158,6 +69162,7 @@ entity
 		"OnTrigger" "grav3_beam,TurnOn,,0,-1"
 		"OnTrigger" "grav3_indicator,Open,,0,-1"
 		"OnTrigger" "grav3_beam,TurnOn,,0,-1"
+		"OnTrigger" "grav3_embers,Use,,0,-1"
 	}
 	"origin" "272 -464 224"
 	editor
@@ -69181,6 +69186,7 @@ entity
 		"OnTrigger" "grav3_beam,TurnOff,,0,-1"
 		"OnTrigger" "grav3_indicator,Close,,0,-1"
 		"OnTrigger" "grav3_beam,TurnOff,,0,-1"
+		"OnTrigger" "grav3_embers,Use,,0,-1"
 	}
 	"origin" "288 -464 224"
 	editor
@@ -93052,7 +93058,7 @@ entity
 	"lifetime" "4"
 	"particletype" "0"
 	"rendercolor" "224 0 224"
-	"spawnflags" "1"
+	"spawnflags" "2"
 	"speed" "32"
 	"targetname" "grav2_embers"
 	solid
@@ -93148,7 +93154,7 @@ entity
 	"lifetime" "4"
 	"particletype" "0"
 	"rendercolor" "224 0 224"
-	"spawnflags" "1"
+	"spawnflags" "2"
 	"speed" "32"
 	"targetname" "grav3_embers"
 	solid
