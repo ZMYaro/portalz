@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "788"
+	"mapversion" "811"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "788"
+	"mapversion" "811"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35392,6 +35392,10 @@ entity
 	"skin" "0"
 	"spawnflags" "256"
 	"targetname" "room1_radio"
+	connections
+	{
+		"OnOutOfWorld" "room1_radio_sound,Kill,,0,-1"
+	}
 	"origin" "-68 -160 0.284353"
 	editor
 	{
@@ -35412,6 +35416,7 @@ entity
 	"radius" "1250"
 	"SourceEntityName" "room1_radio"
 	"spawnflags" "0"
+	"targetname" "room1_radio_sound"
 	"origin" "-320 -128 8.99999"
 	editor
 	{
@@ -44418,7 +44423,7 @@ entity
 {
 	"id" "12789"
 	"classname" "trigger_portal_cleanser"
-	"origin" "432.5 0 64"
+	"origin" "431.5 0 64"
 	"spawnflags" "65"
 	"StartDisabled" "0"
 	solid
@@ -44427,7 +44432,7 @@ entity
 		side
 		{
 			"id" "3699"
-			"plane" "(432 -64 128) (432 64 128) (433 64 128)"
+			"plane" "(431 -64 128) (431 64 128) (432 64 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -44438,7 +44443,7 @@ entity
 		side
 		{
 			"id" "3698"
-			"plane" "(432 64 0.000236511) (432 -64 0.000236511) (433 -64 0.000236511)"
+			"plane" "(431 64 0) (431 -64 0) (432 -64 0)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -44449,7 +44454,7 @@ entity
 		side
 		{
 			"id" "3697"
-			"plane" "(432 -64 0.000236511) (432 64 0.000236511) (432 64 128)"
+			"plane" "(431 -64 0) (431 64 0) (431 64 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -44460,7 +44465,7 @@ entity
 		side
 		{
 			"id" "3696"
-			"plane" "(433 64 0.000236511) (433 -64 0.000236511) (433 -64 128)"
+			"plane" "(432 64 0) (432 -64 0) (432 -64 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -44471,7 +44476,7 @@ entity
 		side
 		{
 			"id" "3695"
-			"plane" "(432 64 0.000236511) (433 64 0.000236511) (433 64 128)"
+			"plane" "(431 64 0) (432 64 0) (432 64 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -44482,7 +44487,7 @@ entity
 		side
 		{
 			"id" "3694"
-			"plane" "(433 -64 0.000236511) (432 -64 0.000236511) (432 -64 128)"
+			"plane" "(432 -64 0) (431 -64 0) (431 -64 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -69810,6 +69815,139 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "79200"
+	"classname" "trigger_once"
+	"filtername" "radio_filter"
+	"origin" "432.5 0 64"
+	"spawnflags" "8"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "room1_radio_sound,Kill,,0,-1"
+		"OnStartTouch" "room1_radio_kill_sound,PlaySound,,0,-1"
+	}
+	solid
+	{
+		"id" "79180"
+		side
+		{
+			"id" "12082"
+			"plane" "(432 64 128) (433 64 128) (433 -64 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12081"
+			"plane" "(432 -64 0) (433 -64 0) (433 64 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12080"
+			"plane" "(432 64 128) (432 -64 128) (432 -64 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12079"
+			"plane" "(433 64 0) (433 -64 0) (433 -64 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12078"
+			"plane" "(433 64 128) (432 64 128) (432 64 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12077"
+			"plane" "(433 -64 0) (432 -64 0) (432 -64 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "79219"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "UpdateItem.Fizzle"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "room1_radio_kill_sound"
+	"origin" "448 0 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "79254"
+	"classname" "filter_activator_name"
+	"filtername" "room1_radio"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "radio_filter"
+	"origin" "448 0 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -12268]"
 	}
 }
 cameras
