@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6083"
-	"mapversion" "842"
+	"mapversion" "960"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "842"
+	"mapversion" "960"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66677,7 +66677,7 @@ entity
 		{
 			"id" "11677"
 			"plane" "(672 -828 384) (672 -828 376) (668 -828 376)"
-			"material" "PLASTIC/PLASTICWALL001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -66764,7 +66764,7 @@ entity
 		{
 			"id" "11684"
 			"plane" "(664 -828 384) (664 -828 380) (668 -828 376)"
-			"material" "PLASTIC/PLASTICWALL001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -67235,7 +67235,7 @@ entity
 		{
 			"id" "11761"
 			"plane" "(668 -708 384) (668 -708 376) (668 -712 376)"
-			"material" "PLASTIC/PLASTICWALL001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -67322,7 +67322,7 @@ entity
 		{
 			"id" "11768"
 			"plane" "(668 -716 384) (668 -716 380) (668 -712 376)"
-			"material" "PLASTIC/PLASTICWALL001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -70438,6 +70438,3283 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -13768]"
+	}
+}
+entity
+{
+	"id" "82395"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "-382 382 8"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 -0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2323"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 382 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "82413"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "-382 376 2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2316"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "82431"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "-376 382 2"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2322"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-376 382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "82449"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "-382 -376 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2498"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 -376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "82467"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "-376 -382 2"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2504"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-376 -382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "82485"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "-382 -382 7.99999"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2505"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 -382 7.99999"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "82509"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 -0 -0"
+	"BasisOrigin" "376 -382 2"
+	"BasisU" "-0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2490"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "376 -382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "82527"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "382 -382 7.99999"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2491"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 -382 7.99999"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "82551"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "382 -376 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2484"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 -376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "82569"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "382 376 2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2400"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "82587"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "382 382 7.99999"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 -0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2407"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 382 7.99999"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "82605"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 -0 -0"
+	"BasisOrigin" "376 382 2"
+	"BasisU" "-0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2406"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "376 382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "82623"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "382 382 120"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2393"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "82647"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "376 382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2392"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "376 382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "82665"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "382 376 126"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2386"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "82683"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "-376 382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2350"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-376 382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "82701"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "-382 376 126"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2344"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "82719"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "-382 382 120"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2351"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "82737"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "-382 -376 126"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2512"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 -376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "82772"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "-382 -382 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2519"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-382 -382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "82790"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "-376 -382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2518"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "-376 -382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "82808"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "376 -382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2476"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "376 -382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "82826"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "382 -382 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2477"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 -382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "82844"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "382 -376 126"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "2470"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "382 -376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "82868"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "674 -56 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4085"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 -56 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "82886"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "680 -62 2"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4226"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "680 -62 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "82904"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "674 -62 8"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4086"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 -62 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "82934"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "674 -62 120"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4345"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 -62 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "82958"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 -0"
+	"BasisOrigin" "674 -56 126"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4349"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 -56 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "82976"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "680 -62 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4358"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "680 -62 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "82994"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "856 -62 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4043"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "856 -62 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "83012"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "862 -56 126"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4044"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 -56 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "83030"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "862 568 126"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4197"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 568 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "83048"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "862 -62 120"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4254"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 -62 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
+entity
+{
+	"id" "83066"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "862 -62 8"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4016"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 -62 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "83084"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 -0 -0"
+	"BasisOrigin" "856 -62 2"
+	"BasisU" "-0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4015"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "856 -62 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "83102"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "862 -56 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4009"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 -56 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "83120"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "862 568 2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4212"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 568 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "83138"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "862 574 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4310"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 574 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "83156"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "862 574 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4191"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "862 574 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "83174"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "856 574 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4198"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "856 574 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12768]"
+	}
+}
+entity
+{
+	"id" "83192"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "680 574 126"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4156"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "680 574 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12268]"
+	}
+}
+entity
+{
+	"id" "83210"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "674 574 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4149"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 574 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "83228"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "674 574 8"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4135"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 574 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "83246"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "680 574 2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4142"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "680 574 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10768]"
+	}
+}
+entity
+{
+	"id" "83264"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "856 574 2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4211"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "856 574 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "83282"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -1 -0"
+	"BasisOrigin" "674 568 2"
+	"BasisU" "1 0 0"
+	"BasisV" "0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4141"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 568 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9768]"
+	}
+}
+entity
+{
+	"id" "83300"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -1 -0"
+	"BasisOrigin" "674 568 126"
+	"BasisU" "1 0 0"
+	"BasisV" "0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "4155"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "674 568 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "83318"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "424 -258 2"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11071"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "424 -258 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8768]"
+	}
+}
+entity
+{
+	"id" "83336"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "536 -258 2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11193"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "536 -258 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
+entity
+{
+	"id" "83354"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "418 -264 2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11079"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -264 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "83372"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "418 -376 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11107"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7268]"
+	}
+}
+entity
+{
+	"id" "83390"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "418 -258 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11072"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -258 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
+	}
+}
+entity
+{
+	"id" "83414"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "418 -258 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11486"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -258 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "83432"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "424 -258 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11485"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "424 -258 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "83450"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "536 -258 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11346"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "536 -258 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5268]"
+	}
+}
+entity
+{
+	"id" "83468"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "418 -264 126"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11493"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -264 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "83486"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "418 -376 126"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11458"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4268]"
+	}
+}
+entity
+{
+	"id" "83504"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "424 -382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11464"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "424 -382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3768]"
+	}
+}
+entity
+{
+	"id" "83522"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "536 -382 126"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11443"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "536 -382 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "83540"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "418 -382 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11465"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2768]"
+	}
+}
+entity
+{
+	"id" "83558"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "418 -382 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11114"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "418 -382 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "83576"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "424 -382 2"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11113"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "424 -382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "83594"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 -0 -0"
+	"BasisOrigin" "536 -382 2"
+	"BasisU" "-0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11247"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "536 -382 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1268]"
+	}
+}
+entity
+{
+	"id" "83612"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "542 -376 2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11241"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -376 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -768]"
+	}
+}
+entity
+{
+	"id" "83630"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "542 -264 2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11271"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -264 2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 0]"
+	}
+}
+entity
+{
+	"id" "83648"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "542 -382 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11248"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -382 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 500]"
+	}
+}
+entity
+{
+	"id" "83666"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "542 -382 120"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11444"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -382 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1000]"
+	}
+}
+entity
+{
+	"id" "83690"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "542 -376 126"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11437"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -376 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "83708"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "542 -264 126"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11367"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -264 126"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "83726"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "542 -258 120"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11350"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -258 120"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2500]"
+	}
+}
+entity
+{
+	"id" "83744"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "542 -258 8"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 -0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11197"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "542 -258 8"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3000]"
+	}
+}
+entity
+{
+	"id" "83762"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0 1"
+	"BasisOrigin" "546 -710 4"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11661"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -710 4"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3500]"
+	}
+}
+entity
+{
+	"id" "83780"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "546 -710 376"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11745"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -710 376"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4000]"
+	}
+}
+entity
+{
+	"id" "83798"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "546 -716 382"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11738"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -716 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4500]"
+	}
+}
+entity
+{
+	"id" "83816"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "546 -824 382"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11716"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -824 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5000]"
+	}
+}
+entity
+{
+	"id" "83840"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "546 -830 376"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11717"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -830 376"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5500]"
+	}
+}
+entity
+{
+	"id" "83858"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "546 -830 4"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11619"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -830 4"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6000]"
+	}
+}
+entity
+{
+	"id" "83876"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 -0"
+	"BasisOrigin" "546 -823.994 -2"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11611"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -823.994 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6500]"
+	}
+}
+entity
+{
+	"id" "83894"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "546 -716 -2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11654"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "546 -716 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 7000]"
+	}
+}
+entity
+{
+	"id" "83912"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "551.994 -830 -2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11612"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "551.994 -830 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 7500]"
+	}
+}
+entity
+{
+	"id" "83930"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "664 -830 -2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11569"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "664 -830 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 8000]"
+	}
+}
+entity
+{
+	"id" "83966"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "670 -830 4"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 -0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11577"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 4"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9000]"
+	}
+}
+entity
+{
+	"id" "83984"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "670 -830 28"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11884"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 28"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9500]"
+	}
+}
+entity
+{
+	"id" "84042"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "670 -830 40"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11869"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 40"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "84060"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "670 -830 376"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11689"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 376"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13500]"
+	}
+}
+entity
+{
+	"id" "84078"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "552 -830 382"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11710"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "552 -830 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 14000]"
+	}
+}
+entity
+{
+	"id" "84084"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "552 -830 382"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11710"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "552 -830 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 14500]"
+	}
+}
+entity
+{
+	"id" "84128"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "664 -830 382"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11688"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "664 -830 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15000]"
+	}
+}
+entity
+{
+	"id" "84146"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "670 -824 382"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11682"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -824 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "84166"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "670 -716 382"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11772"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -716 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 16000]"
+	}
+}
+entity
+{
+	"id" "84190"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "670 -710 376"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11773"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -710 376"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -16268]"
+	}
+}
+entity
+{
+	"id" "84232"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "676 -704.065 152"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11992"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-0.5 -0.5 0"
+	"uv1" "-0.5 0.5 0"
+	"uv2" "0.5 0.5 0"
+	"uv3" "0.5 -0.5 0"
+	"origin" "676 -704.065 152"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -15268]"
+	}
+}
+entity
+{
+	"id" "84262"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "670 -710 40"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "12015"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -710 40"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -14768]"
+	}
+}
+entity
+{
+	"id" "84280"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "670 -710 28"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "12022"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -710 28"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -14268]"
+	}
+}
+entity
+{
+	"id" "84310"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "670 -710 4"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11535"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -710 4"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -13768]"
+	}
+}
+entity
+{
+	"id" "84328"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 -1"
+	"BasisOrigin" "670 -830 152"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11923"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 152"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -13268]"
+	}
+}
+entity
+{
+	"id" "84346"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "670 -830 164"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11930"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -830 164"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12768]"
+	}
+}
+entity
+{
+	"id" "84432"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "670 -824 158"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11914"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -824 158"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+entity
+{
+	"id" "84450"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "670 -716 158"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11983"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -716 158"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -11768]"
+	}
+}
+entity
+{
+	"id" "84468"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "664 -710 382"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11766"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "664 -710 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -11268]"
+	}
+}
+entity
+{
+	"id" "84486"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "552 -710 382"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11744"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "552 -710 382"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10768]"
+	}
+}
+entity
+{
+	"id" "84504"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "664 -710 -2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11528"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "664 -710 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10268]"
+	}
+}
+entity
+{
+	"id" "84522"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 0"
+	"BasisOrigin" "552 -710 -2"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11653"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "552 -710 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9768]"
+	}
+}
+entity
+{
+	"id" "84540"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "670 -716 -2"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11527"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -716 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -9268]"
+	}
+}
+entity
+{
+	"id" "84558"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "670 -824 -2"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11570"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -824 -2"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8768]"
+	}
+}
+entity
+{
+	"id" "84576"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "670 -824 34"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11852"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -824 34"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8268]"
+	}
+}
+entity
+{
+	"id" "84594"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -1 0"
+	"BasisOrigin" "670 -716 34"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "12006"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -716 34"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -7768]"
+	}
+}
+entity
+{
+	"id" "84612"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "676 -830 34"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11853"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "676 -830 34"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -7268]"
+	}
+}
+entity
+{
+	"id" "84630"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 0 -0"
+	"BasisOrigin" "676 -710 34"
+	"BasisU" "0 1 0"
+	"BasisV" "0 -0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "12007"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "676 -710 34"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -6768]"
+	}
+}
+entity
+{
+	"id" "84648"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "676 -710 158"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11984"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "676 -710 158"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -6268]"
+	}
+}
+entity
+{
+	"id" "84666"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "676 -830 158"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11915"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "676 -830 158"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -5768]"
+	}
+}
+entity
+{
+	"id" "84684"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "670 -710 164"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "signage/indicator_lights/indicator_lights_corner_wall"
+	"sides" "11999"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-2 -2 0"
+	"uv1" "-2 2 0"
+	"uv2" "2 2 0"
+	"uv3" "2 -2 0"
+	"origin" "670 -710 164"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -5268]"
 	}
 }
 cameras
