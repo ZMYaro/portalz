@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "1516"
+	"mapversion" "1521"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1516"
+	"mapversion" "1521"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62328,6 +62328,7 @@ entity
 	{
 		"OnStartTouch" "room2_camera2,Ragdoll,,0,-1"
 		"OnStartTouch" "room2_camera2_player_clip,Kill,,0,-1"
+		"OnStartTouch" "room2_camera2_drop_trigger_player,Kill,,0,-1"
 	}
 	solid
 	{
@@ -62459,6 +62460,7 @@ entity
 		"OnStartTouch" "room2_camera1,Ragdoll,,0,-1"
 		"OnStartTouch" "room2_camera1_drop_trigger_portal,Kill,,0,-1"
 		"OnStartTouch" "room2_camera1_player_clip,Kill,,0,-1"
+		"OnStartTouch" "room2_camera1_drop_trigger_player,Kill,,0,-1"
 	}
 	solid
 	{
@@ -62556,6 +62558,7 @@ entity
 		"OnStartTouchLinkedPortal" "room2_camera1,Ragdoll,,0,-1"
 		"OnStartTouchLinkedPortal" "room2_camera1_drop_trigger_box,Kill,,0,-1"
 		"OnStartTouchLinkedPortal" "room2_camera1_player_clip,Kill,,0,-1"
+		"OnStartTouchLinkedPortal" "room2_camera1_drop_trigger_player,Kill,,0,-1"
 	}
 	solid
 	{
@@ -86128,6 +86131,14 @@ entity
 	"origin" "160 232 200"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"targetname" "room2_camera1_drop_trigger_player"
+	connections
+	{
+		"OnStartTouch" "room2_camera1_player_clip,Kill,,0,-1"
+		"OnStartTouch" "room2_camera1_drop_trigger_portal,Kill,,0,-1"
+		"OnStartTouch" "room2_camera1,Ragdoll,,0,-1"
+		"OnStartTouch" "room2_camera1_drop_trigger_box,Kill,,0,-1"
+	}
 	solid
 	{
 		"id" "128591"
@@ -86190,6 +86201,104 @@ entity
 		{
 			"id" "14511"
 			"plane" "(164 220 198) (156 220 198) (156 220 202)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "128625"
+	"classname" "trigger_once"
+	"origin" "328 576 200"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "room2_camera2_drop_trigger_player"
+	connections
+	{
+		"OnStartTouch" "room2_camera2_player_clip,Kill,,0,-1"
+		"OnStartTouch" "room2_camera2,Ragdoll,,0,-1"
+		"OnStartTouch" "room2_camera2_drop_trigger_box,Kill,,0,-1"
+	}
+	solid
+	{
+		"id" "128626"
+		side
+		{
+			"id" "14528"
+			"plane" "(316 580 202) (340 580 202) (340 572 202)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14527"
+			"plane" "(316 572 198) (340 572 198) (340 580 198)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14526"
+			"plane" "(316 580 202) (316 572 202) (316 572 198)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14525"
+			"plane" "(340 580 198) (340 572 198) (340 572 202)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14524"
+			"plane" "(340 580 202) (316 580 202) (316 580 198)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14523"
+			"plane" "(340 572 198) (316 572 198) (316 572 202)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
