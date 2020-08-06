@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "389"
+	"mapversion" "394"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "389"
+	"mapversion" "394"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30894,8 +30894,9 @@ entity
 {
 	"id" "28391"
 	"classname" "func_door_rotating"
+	"_minlight" "0.4"
 	"angles" "0 0 0"
-	"closesound" "Concrete.ImpactHard"
+	"closesound" "Wood_Crate.ImpactHard"
 	"disablereceiveshadows" "1"
 	"disableshadows" "0"
 	"distance" "98"
@@ -30915,6 +30916,7 @@ entity
 	"spawnflags" "64"
 	"spawnpos" "1"
 	"speed" "200"
+	"startclosesound" "Concrete.ScrapeSmooth"
 	"targetname" "grav_gun_room_portal_surface"
 	"unlocked_sentence" "0"
 	"wait" "-1"
@@ -30947,7 +30949,7 @@ entity
 		{
 			"id" "4788"
 			"plane" "(64 -544 -3.8147e-006) (64 -672 0) (128 -672 0)"
-			"material" "CONCRETE/CONCRETE_BTS_FLOOR001A"
+			"material" "CONCRETE/CONCRETE_BTS_MODULAR_WALL001D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
 			"rotation" "0"
