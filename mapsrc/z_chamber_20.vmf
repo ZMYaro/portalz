@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "744"
+	"mapversion" "747"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "744"
+	"mapversion" "747"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20911,7 +20911,7 @@ entity
 	"id" "5841"
 	"classname" "ambient_generic"
 	"health" "10"
-	"message" "z_mappack/party_entry.wav"
+	"message" "z_mappack/zc20_party_entry.wav"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
@@ -20932,12 +20932,12 @@ entity
 	"id" "6008"
 	"classname" "ambient_generic"
 	"health" "10"
-	"message" "z_mappack/tc20_end.wav"
+	"message" "z_mappack/zc20_end.wav"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
 	"spawnflags" "49"
-	"targetname" "tc_20_end_sound"
+	"targetname" "tc20_end_sound"
 	"volstart" "0"
 	"origin" "1024 -160 9"
 	editor
@@ -20955,10 +20955,9 @@ entity
 	"origin" "927.5 -160 96"
 	"spawnflags" "1"
 	"StartDisabled" "0"
-	"targetname" "tc_20_end_trigger"
 	connections
 	{
-		"OnStartTouch" "tc_20_end_sound,PlaySound,,0,1"
+		"OnStartTouch" "tc20_end_sound,PlaySound,,0,1"
 		"OnStartTouch" "party_top_door,Open,,20,1"
 		"OnStartTouch" "end_door_left,Close,,0,1"
 		"OnStartTouch" "end_door_right,Close,,0,1"
@@ -21860,7 +21859,7 @@ entity
 	"id" "12928"
 	"classname" "ambient_generic"
 	"health" "10"
-	"message" "z_mappack/cake.wav"
+	"message" "z_mappack/zc20_cake.wav"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
