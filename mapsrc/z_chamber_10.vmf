@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "1771"
+	"mapversion" "1805"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1771"
+	"mapversion" "1805"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -95586,6 +95586,7 @@ entity
 	"id" "139396"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_nw_floor_corner"
 	"origin" "546 -418 2"
 	editor
 	{
@@ -95804,6 +95805,7 @@ entity
 	"id" "139461"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_ne_floor_corner"
 	"origin" "926 -418 2"
 	editor
 	{
@@ -96884,6 +96886,7 @@ entity
 	"id" "139799"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_nw_ceil_corner"
 	"origin" "546 -418 382"
 	editor
 	{
@@ -99796,6 +99799,7 @@ entity
 	"id" "140941"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_sw_floor_outer_corner"
 	"origin" "546 -926 2"
 	editor
 	{
@@ -100101,6 +100105,7 @@ entity
 	"id" "141025"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_se_floor_outer_corner"
 	"origin" "926 -926 2"
 	editor
 	{
@@ -100406,6 +100411,7 @@ entity
 	"id" "141693"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_sw_ceil_outer_corner"
 	"origin" "546.603 -926 382"
 	editor
 	{
@@ -100711,6 +100717,7 @@ entity
 	"id" "141763"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_sw_floor_inner_corner"
 	"origin" "546 -1054 130"
 	editor
 	{
@@ -100998,6 +101005,7 @@ entity
 	"id" "141846"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_sw_ceil_inner_corner"
 	"origin" "546 -1054 254"
 	editor
 	{
@@ -101321,6 +101329,7 @@ entity
 	"id" "141907"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_se_floor_inner_corner"
 	"origin" "926 -1054 130"
 	editor
 	{
@@ -101335,6 +101344,7 @@ entity
 	"id" "141909"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_se_ceil_inner_corner"
 	"origin" "926 -1054 254"
 	editor
 	{
@@ -101931,6 +101941,7 @@ entity
 	"id" "142089"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_se_ceil_outer_corner"
 	"origin" "926 -926 382"
 	editor
 	{
@@ -101945,6 +101956,7 @@ entity
 	"id" "142146"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"targetname" "room4_ne_ceil_corner"
 	"origin" "926 -418 382"
 	editor
 	{
@@ -103865,36 +103877,6 @@ entity
 }
 entity
 {
-	"id" "150226"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "546 -926 8"
-	"BasisU" "1 0 0"
-	"BasisV" "0 1 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "signage/indicator_lights/indicator_lights_corner_wall"
-	"sides" "16320"
-	"StartU" "0"
-	"StartV" "1"
-	"targetname" "grav_indicator_lights"
-	"uv0" "-2 -2 0"
-	"uv1" "-2 2 0"
-	"uv2" "2 2 0"
-	"uv3" "2 -2 0"
-	"origin" "546 -926 8"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -9768]"
-	}
-}
-entity
-{
 	"id" "150262"
 	"classname" "info_overlay"
 	"angles" "0 0 0"
@@ -104010,36 +103992,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "150448"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "926 -926 8"
-	"BasisU" "1 0 0"
-	"BasisV" "0 1 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "signage/indicator_lights/indicator_lights_corner_wall"
-	"sides" "16362"
-	"StartU" "0"
-	"StartV" "1"
-	"targetname" "grav_indicator_lights"
-	"uv0" "-2 -2 0"
-	"uv1" "-2 2 0"
-	"uv2" "2 2 0"
-	"uv3" "2 -2 0"
-	"origin" "926 -926 8"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7268]"
 	}
 }
 entity
@@ -104607,36 +104559,6 @@ entity
 }
 entity
 {
-	"id" "155111"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 -1"
-	"BasisOrigin" "926 -926 376"
-	"BasisU" "1 0 0"
-	"BasisV" "0 -1 0"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "signage/indicator_lights/indicator_lights_corner_wall"
-	"sides" "16614"
-	"StartU" "1"
-	"StartV" "0"
-	"targetname" "grav_indicator_lights"
-	"uv0" "-2 -2 0"
-	"uv1" "-2 2 0"
-	"uv2" "2 2 0"
-	"uv3" "2 -2 0"
-	"origin" "926 -926 376"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
 	"id" "155159"
 	"classname" "info_overlay"
 	"angles" "0 0 0"
@@ -104813,6 +104735,492 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "155507"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_ne_floor_corner"
+	"LightningStart" "room4_nw_floor_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "736 -420 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155558"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_floor_outer_corner"
+	"LightningStart" "room4_sw_floor_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "736 -924 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155588"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_floor_inner_corner"
+	"LightningStart" "room4_sw_floor_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "736 -1052 132"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155612"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_ceil_inner_corner"
+	"LightningStart" "room4_sw_ceil_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "736 -1052 252"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155633"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_ceil_outer_corner"
+	"LightningStart" "room4_sw_ceil_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "737.768 -926.6 380"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155656"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_ne_ceil_corner"
+	"LightningStart" "room4_nw_ceil_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "736 -420 380"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155726"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_sw_floor_outer_corner"
+	"LightningStart" "room4_nw_floor_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -672 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155777"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_sw_floor_inner_corner"
+	"LightningStart" "room4_sw_floor_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -988 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155811"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_sw_ceil_inner_corner"
+	"LightningStart" "room4_sw_floor_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -1052 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155838"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_sw_ceil_outer_corner"
+	"LightningStart" "room4_sw_ceil_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -988 316"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155916"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_nw_ceil_corner"
+	"LightningStart" "room4_sw_ceil_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -672 380"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155940"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_nw_floor_corner"
+	"LightningStart" "room4_nw_ceil_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "548 -420 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155958"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_ne_floor_corner"
+	"LightningStart" "room4_ne_ceil_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -420 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155994"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_ne_floor_corner"
+	"LightningStart" "room4_se_floor_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -672 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "155997"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_ceil_outer_corner"
+	"LightningStart" "room4_ne_ceil_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -672 380"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "156031"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_floor_outer_corner"
+	"LightningStart" "room4_se_floor_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -988 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "156034"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_ceil_inner_corner"
+	"LightningStart" "room4_se_ceil_outer_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -988 316"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "156073"
+	"classname" "env_beam"
+	"BoltWidth" "3"
+	"decalname" "Bigshot"
+	"HDRColorScale" "1.0"
+	"life" "0"
+	"LightningEnd" "room4_se_floor_inner_corner"
+	"LightningStart" "room4_se_ceil_inner_corner"
+	"Radius" "256"
+	"renderamt" "100"
+	"rendercolor" "224 0 224"
+	"renderfx" "1"
+	"spawnflags" "1"
+	"StrikeTime" "1"
+	"texture" "sprites/laserbeam.vmt"
+	"TextureScroll" "35"
+	"origin" "924 -1052 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
 	}
 }
 cameras
