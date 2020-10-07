@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "1833"
+	"mapversion" "1835"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1833"
+	"mapversion" "1835"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -102342,28 +102342,6 @@ entity
 }
 entity
 {
-	"id" "142526"
-	"classname" "ambient_generic"
-	"hammerid" "238"
-	"health" "10"
-	"message" "zc10_entry.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "1250"
-	"spawnflags" "49"
-	"targetname" "entry_sound"
-	"volstart" "10"
-	"origin" "-744 0 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14000]"
-	}
-}
-entity
-{
 	"id" "142544"
 	"classname" "trigger_once"
 	"origin" "-991.5 0 64"
@@ -105718,6 +105696,28 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "159975"
+	"classname" "ambient_generic"
+	"hammerid" "238"
+	"health" "10"
+	"message" "z_mappack/zc10_entry.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "49"
+	"targetname" "entry_sound"
+	"volstart" "10"
+	"origin" "-768 0 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
 	}
 }
 cameras
