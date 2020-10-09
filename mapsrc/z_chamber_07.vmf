@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "2059"
+	"mapversion" "2062"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "2059"
+	"mapversion" "2062"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -114578,6 +114578,7 @@ entity
 		"OnPressed" "room1_piston1_floor_panel,Close,,1,-1"
 		"OnPressed" "room1_piston2_floor_panel,Close,,1,-1"
 		"OnPressed" "room1_side_wall_close,Trigger,,1,-1"
+		"OnPressed" "room1_shake,StartShake,,0.5,-1"
 	}
 	solid
 	{
@@ -154952,13 +154953,32 @@ entity
 		"logicalpos" "[500 -12768]"
 	}
 }
+entity
+{
+	"id" "339886"
+	"classname" "env_shake"
+	"amplitude" "4"
+	"duration" "1.25"
+	"frequency" "2.5"
+	"radius" "500"
+	"spawnflags" "0"
+	"targetname" "room1_shake"
+	"origin" "1736 184 73"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1921.53 -2497.88 731.554]"
-		"look" "[1943.95 -2488.89 719.772]"
+		"position" "[1796.84 161.195 157.877]"
+		"look" "[1781.27 166.788 136.698]"
 	}
 }
 cordon
