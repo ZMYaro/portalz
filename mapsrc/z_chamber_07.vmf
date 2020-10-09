@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "1904"
+	"mapversion" "1908"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1904"
+	"mapversion" "1908"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -114132,14 +114132,14 @@ entity
 		"OnPressed" "room1_movable_wall_btn_model,SetAnimation,down,0,-1"
 		"OnPressed" "room1_prt2_switch_indicator_lights_toggle,SetTextureIndex,1,0,-1"
 		"OnPressed" "room1_glass,Open,,1,-1"
-		"OnPressed" "room1_wall_flipper,Trigger,,1,-1"
+		"OnPressed" "room1_wall_flipper,Trigger,,2.25,-1"
 		"OnPressed" "room1_piston1_rotator,Close,,0.75,-1"
 		"OnPressed" "room1_piston1,Close,,1,-1"
 		"OnPressed" "room1_piston2,Close,,1.5,-1"
 		"OnPressed" "room1_piston2_rotator,Close,,0.25,-1"
 		"OnPressed" "room1_piston1_floor_panel,Close,,1,-1"
 		"OnPressed" "room1_piston2_floor_panel,Close,,1,-1"
-		"OnPressed" "room1_side_wall_close,Trigger,,0,-1"
+		"OnPressed" "room1_side_wall_close,Trigger,,1,-1"
 	}
 	solid
 	{
@@ -140872,9 +140872,9 @@ entity
 	"targetname" "room1_side_wall_close"
 	connections
 	{
-		"OnTrigger" "room1_side_wall_piston1,Open,,1.5,-1"
-		"OnTrigger" "room1_side_wall_piston2,Open,,1,-1"
-		"OnTrigger" "room1_side_wall_piston3,Open,,0.5,-1"
+		"OnTrigger" "room1_side_wall_piston1,Open,,2,-1"
+		"OnTrigger" "room1_side_wall_piston2,Open,,1.5,-1"
+		"OnTrigger" "room1_side_wall_piston3,Open,,1,-1"
 		"OnTrigger" "room1_side_wall_piston_rotator,Close,,0,-1"
 	}
 	"origin" "904 503 648"
@@ -142802,8 +142802,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1103.35 469.684 198.616]"
-		"look" "[1101.24 479.71 173.762]"
+		"position" "[1828.7 217 158.334]"
+		"look" "[1805.84 207.831 147.572]"
 	}
 }
 cordon
