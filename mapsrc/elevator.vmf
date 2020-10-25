@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "176"
+	"mapversion" "177"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "176"
+	"mapversion" "177"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15793,7 +15793,7 @@ entity
 {
 	"id" "8469"
 	"classname" "trigger_once"
-	"origin" "303.5 0 72"
+	"origin" "308.5 0 72"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
@@ -15808,7 +15808,7 @@ entity
 		side
 		{
 			"id" "4436"
-			"plane" "(303 16 112) (304 16 112) (304 -16 112)"
+			"plane" "(308 -16 112) (308 16 112) (309 16 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -15819,7 +15819,7 @@ entity
 		side
 		{
 			"id" "4435"
-			"plane" "(303 -16 32) (304 -16 32) (304 16 32)"
+			"plane" "(308 16 32) (308 -16 32) (309 -16 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -15830,7 +15830,7 @@ entity
 		side
 		{
 			"id" "4434"
-			"plane" "(303 16 112) (303 -16 112) (303 -16 32)"
+			"plane" "(308 -16 32) (308 16 32) (308 16 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15841,7 +15841,7 @@ entity
 		side
 		{
 			"id" "4433"
-			"plane" "(304 16 32) (304 -16 32) (304 -16 112)"
+			"plane" "(309 16 32) (309 -16 32) (309 -16 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15852,7 +15852,7 @@ entity
 		side
 		{
 			"id" "4432"
-			"plane" "(304 16 112) (303 16 112) (303 16 32)"
+			"plane" "(308 16 32) (309 16 32) (309 16 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15863,7 +15863,7 @@ entity
 		side
 		{
 			"id" "4431"
-			"plane" "(304 -16 32) (303 -16 32) (303 -16 112)"
+			"plane" "(309 -16 32) (308 -16 32) (308 -16 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
