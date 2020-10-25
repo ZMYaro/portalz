@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "172"
+	"mapversion" "176"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "172"
+	"mapversion" "176"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14243,7 +14243,7 @@ entity
 	"solidbsp" "0"
 	"spawnflags" "18"
 	"spawnpos" "0"
-	"speed" "120"
+	"speed" "180"
 	"targetname" "elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
@@ -14964,7 +14964,7 @@ entity
 	"solidbsp" "0"
 	"spawnflags" "16"
 	"spawnpos" "0"
-	"speed" "120"
+	"speed" "180"
 	"targetname" "elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
@@ -15799,8 +15799,8 @@ entity
 	connections
 	{
 		"OnStartTouch" "elevator_door,Close,,0,-1"
-		"OnStartTouch" "elevator,Open,,2,-1"
-		"OnStartTouch" "elevator_fade,Fade,,2.25,-1"
+		"OnStartTouch" "elevator,Open,,0.75,-1"
+		"OnStartTouch" "elevator_fade,Fade,,1,-1"
 	}
 	solid
 	{
