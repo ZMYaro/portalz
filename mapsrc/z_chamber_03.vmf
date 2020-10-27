@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "508"
+	"mapversion" "517"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "508"
+	"mapversion" "517"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23949,6 +23949,8 @@ entity
 		"OnOpen" "indicator3-5_toggle,SetTextureIndex,1,0,-1"
 		"OnOpen" "button3_block_door,Open,,0,-1"
 		"OnClose" "button3_block_door,Close,,0,-1"
+		"OnOpen" "button3_trapped_trigger,Disable,,0,-1"
+		"OnClose" "button3_trapped_trigger,Enable,,0,-1"
 	}
 	solid
 	{
@@ -28864,7 +28866,7 @@ entity
 			"id" "7032"
 			"plane" "(-1248 -704 448) (-1248 -704 384) (-1120 -704 384)"
 			"material" "METAL/METALWALL048B_MED"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -31658,6 +31660,146 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24827"
+	"classname" "trigger_multiple"
+	"origin" "-1184 -704 424"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "button3_trapped_trigger"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "button3_block_door,Open,,15.85,-1"
+		"OnStartTouch" "button3_trapped_sound2,PlaySound,,11,-1"
+		"OnStartTouch" "button3_trapped_sound1,PlaySound,,0,-1"
+		"OnStartTouch" "!self,Disable,,15.85,-1"
+	}
+	solid
+	{
+		"id" "24825"
+		side
+		{
+			"id" "7824"
+			"plane" "(-1248 -576 512) (-1120 -576 512) (-1120 -832 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7823"
+			"plane" "(-1248 -832 336) (-1120 -832 336) (-1120 -576 336)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7822"
+			"plane" "(-1248 -576 512) (-1248 -832 512) (-1248 -832 336)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7821"
+			"plane" "(-1120 -576 336) (-1120 -832 336) (-1120 -832 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7820"
+			"plane" "(-1120 -576 512) (-1248 -576 512) (-1248 -576 336)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7819"
+			"plane" "(-1120 -832 336) (-1248 -832 336) (-1248 -832 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "24839"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Portal.08_part1_trapped-1"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "49"
+	"targetname" "button3_trapped_sound1"
+	"origin" "-1240 -584 344"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10268]"
+	}
+}
+entity
+{
+	"id" "24842"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Portal.08_part1_trapped-2"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "49"
+	"targetname" "button3_trapped_sound2"
+	"origin" "-1224 -584 344"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -10268]"
 	}
 }
 cameras
