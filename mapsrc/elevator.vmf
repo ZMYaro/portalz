@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "256"
+	"mapversion" "259"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "256"
+	"mapversion" "259"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23575,7 +23575,7 @@ entity
 	"radius" "1250"
 	"SourceEntityName" "entry_elevator"
 	"spawnflags" "48"
-	"targetname" "entry_elevator_door_ding"
+	"targetname" "entry_elevator_arrival_ding"
 	"origin" "-432 0 48"
 	editor
 	{
@@ -25097,6 +25097,7 @@ entity
 	connections
 	{
 		"OnFullyOpen" "entry_elevator_door,Open,,0.25,-1"
+		"OnFullyOpen" "entry_elevator_arrival_ding,PlaySound,,0,-1"
 	}
 	solid
 	{
