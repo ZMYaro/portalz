@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "725"
+	"mapversion" "729"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "725"
+	"mapversion" "729"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -37812,7 +37812,7 @@ entity
 	"fadescale" "1"
 	"model" "models/props/portal_cleanser_1.mdl"
 	"solid" "6"
-	"origin" "1456 -72 320"
+	"origin" "1488 -72 320"
 	editor
 	{
 		"color" "190 155 0"
@@ -37831,7 +37831,7 @@ entity
 	"fadescale" "1"
 	"model" "models/props/portal_cleanser_1.mdl"
 	"solid" "6"
-	"origin" "1456 -184 320"
+	"origin" "1488 -184 320"
 	editor
 	{
 		"color" "190 155 0"
@@ -37845,7 +37845,7 @@ entity
 {
 	"id" "599"
 	"classname" "trigger_portal_cleanser"
-	"origin" "1458 -128.01 321.55"
+	"origin" "1490 -128.01 321.55"
 	"spawnflags" "65"
 	"StartDisabled" "0"
 	"targetname" "trigger_fryer_rm5-a"
@@ -37855,7 +37855,7 @@ entity
 		side
 		{
 			"id" "8515"
-			"plane" "(1456 -192 384) (1456 -64 384) (1457 -64 384)"
+			"plane" "(1488 -192 384) (1488 -64 384) (1489 -64 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -37866,7 +37866,7 @@ entity
 		side
 		{
 			"id" "8514"
-			"plane" "(1456 -64 256) (1456 -192 256) (1457 -192 256)"
+			"plane" "(1488 -64 256) (1488 -192 256) (1489 -192 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -37877,7 +37877,7 @@ entity
 		side
 		{
 			"id" "8513"
-			"plane" "(1456 -192 256) (1456 -64 256) (1456 -64 383.998)"
+			"plane" "(1488 -192 256) (1488 -64 256) (1488 -64 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -37888,7 +37888,7 @@ entity
 		side
 		{
 			"id" "8512"
-			"plane" "(1457 -64 256) (1457 -192 256) (1457 -192 383.998)"
+			"plane" "(1489 -64 256) (1489 -192 256) (1489 -192 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -37899,7 +37899,7 @@ entity
 		side
 		{
 			"id" "8511"
-			"plane" "(1456 -64 256) (1457 -64 256) (1457 -64 383.998)"
+			"plane" "(1488 -64 256) (1489 -64 256) (1489 -64 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -37910,7 +37910,7 @@ entity
 		side
 		{
 			"id" "8510"
-			"plane" "(1457 -192 256) (1456 -192 256) (1456 -192 383.998)"
+			"plane" "(1489 -192 256) (1488 -192 256) (1488 -192 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -37941,7 +37941,7 @@ entity
 	"angles" "0 270 0"
 	"effect_name" "portal_cleanser"
 	"start_active" "1"
-	"origin" "1456 -128 320"
+	"origin" "1488 -128 320"
 	editor
 	{
 		"color" "190 155 0"
@@ -93816,7 +93816,7 @@ entity
 	"spawnflags" "0"
 	"spawnpos" "0"
 	"speed" "400"
-	"targetname" "zc01_exit_elevator"
+	"targetname" "exit_elevator"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	connections
@@ -100846,7 +100846,7 @@ entity
 	"spawnflags" "18"
 	"spawnpos" "0"
 	"speed" "180"
-	"targetname" "zc01_exit_elevator_door"
+	"targetname" "exit_elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -101568,7 +101568,7 @@ entity
 	"spawnflags" "16"
 	"spawnpos" "0"
 	"speed" "180"
-	"targetname" "zc01_exit_elevator_door"
+	"targetname" "exit_elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -102272,10 +102272,10 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "zc01_exit_elevator,Open,,0.75,-1"
+		"OnStartTouch" "exit_elevator,Open,,0.75,-1"
 		"OnStartTouch" "exit_elevator_fade,Fade,,1,-1"
 		"OnStartTouch" "exit_elevator_door_sound,PlaySound,,0,-1"
-		"OnStartTouch" "zc01_exit_elevator_door,Close,,0,-1"
+		"OnStartTouch" "exit_elevator_door,Close,,0,-1"
 	}
 	solid
 	{
@@ -102499,7 +102499,7 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "zc01_exit_elevator_door,Open,,0,-1"
+		"OnStartTouch" "exit_elevator_door,Open,,0,-1"
 	}
 	solid
 	{

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "733"
+	"mapversion" "735"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "733"
+	"mapversion" "735"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56893,7 +56893,7 @@ entity
 	"loopmovesound" "0"
 	"noise1" "Plastic_Barrel.ScrapeSmooth"
 	"origin" "-736 0 -362"
-	"parentname" "zc02_entry_elevator"
+	"parentname" "entry_elevator"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -56902,7 +56902,7 @@ entity
 	"spawnflags" "18"
 	"spawnpos" "0"
 	"speed" "180"
-	"targetname" "zc02_entry_elevator_door"
+	"targetname" "entry_elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -57615,7 +57615,7 @@ entity
 	"loopmovesound" "0"
 	"noise1" "Plastic_Barrel.ScrapeSmooth"
 	"origin" "-736 0 -362"
-	"parentname" "zc02_entry_elevator"
+	"parentname" "entry_elevator"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -57624,7 +57624,7 @@ entity
 	"spawnflags" "16"
 	"spawnpos" "0"
 	"speed" "180"
-	"targetname" "zc02_entry_elevator_door"
+	"targetname" "entry_elevator_door"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
@@ -58343,12 +58343,12 @@ entity
 	"spawnflags" "0"
 	"spawnpos" "0"
 	"speed" "400"
-	"targetname" "zc02_entry_elevator"
+	"targetname" "entry_elevator"
 	"unlocked_sentence" "0"
 	"wait" "-1"
 	connections
 	{
-		"OnFullyOpen" "zc02_entry_elevator_door,Open,,0.25,-1"
+		"OnFullyOpen" "entry_elevator_door,Open,,0.25,-1"
 		"OnFullyOpen" "entry_elevator_arrival_ding,PlaySound,,0,-1"
 	}
 	solid
@@ -65357,7 +65357,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "entry_elevator_fade,Fade,,0,-1"
-		"OnStartTouch" "zc02_entry_elevator,Open,,0,-1"
+		"OnStartTouch" "entry_elevator,Open,,0,-1"
 		"OnStartTouch" "entry_elevator_teleport,Teleport,,0,-1"
 	}
 	solid
@@ -65504,7 +65504,7 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "zc02_entry_elevator_door,Close,,0,-1"
+		"OnStartTouch" "entry_elevator_door,Close,,0,-1"
 	}
 	solid
 	{
