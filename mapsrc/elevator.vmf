@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "279"
+	"mapversion" "281"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "279"
+	"mapversion" "281"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32207,6 +32207,7 @@ entity
 	{
 		"OnStartTouch" "entry_elevator_fade,Fade,,0,-1"
 		"OnStartTouch" "entry_elevator,Open,,0,-1"
+		"OnStartTouch" "entry_elevator_teleport,Teleport,,0,-1"
 	}
 	solid
 	{
@@ -32536,6 +32537,23 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "19587"
+	"classname" "point_teleport"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"target" "!player"
+	"targetname" "entry_elevator_teleport"
+	"origin" "-480 0 -412"
 	editor
 	{
 		"color" "220 30 220"
