@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "262"
+	"mapversion" "266"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "262"
+	"mapversion" "266"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23059,6 +23059,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"targetname" "hev_suit"
 	"origin" "-480 0 -411.983"
 	editor
 	{
@@ -23077,6 +23078,7 @@ entity
 	"CanFirePortal2" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"targetname" "portalgun"
 	"origin" "-464 0 -349"
 	editor
 	{
@@ -32303,6 +32305,25 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "18839"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapTransition" "hev_suit,Kill,,0,-1"
+		"OnMapTransition" "portalgun,Kill,,0,-1"
+	}
+	"origin" "-496 64 23"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
