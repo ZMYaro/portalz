@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "527"
+	"mapversion" "535"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "527"
+	"mapversion" "535"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -108,7 +108,7 @@ world
 		side
 		{
 			"id" "219"
-			"plane" "(-512 512 1.90735e-006) (-512 544 1.90735e-006) (64 544 1.90735e-006)"
+			"plane" "(-512 512 0) (-512 544 0) (64 544 0)"
 			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -119,9 +119,9 @@ world
 		side
 		{
 			"id" "220"
-			"plane" "(-512 544 -64) (-512 512 -64) (64 512 -64)"
+			"plane" "(-512 544 -96) (-512 512 -96) (64 512 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -130,7 +130,7 @@ world
 		side
 		{
 			"id" "221"
-			"plane" "(-512 512 -64) (-512 544 -64) (-512 544 1.90735e-006)"
+			"plane" "(-512 512 -96) (-512 544 -96) (-512 544 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -141,7 +141,7 @@ world
 		side
 		{
 			"id" "222"
-			"plane" "(64 544 -64) (64 512 -64) (64 512 1.90735e-006)"
+			"plane" "(64 544 -96) (64 512 -96) (64 512 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -152,7 +152,7 @@ world
 		side
 		{
 			"id" "223"
-			"plane" "(-512 544 -64) (64 544 -64) (64 544 1.90735e-006)"
+			"plane" "(-512 544 -96) (64 544 -96) (64 544 0)"
 			"material" "METAL/METALWALL048E"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -163,7 +163,7 @@ world
 		side
 		{
 			"id" "224"
-			"plane" "(64 512 -64) (-512 512 -64) (-512 512 1.90735e-006)"
+			"plane" "(64 512 -96) (-512 512 -96) (-512 512 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -4147,7 +4147,7 @@ world
 		side
 		{
 			"id" "6916"
-			"plane" "(32 608 -64) (32 544 -64) (64 544 -64)"
+			"plane" "(32 608 -96) (32 544 -96) (64 544 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4158,7 +4158,7 @@ world
 		side
 		{
 			"id" "6915"
-			"plane" "(32 544 -64) (32 608 -64) (32 608 0)"
+			"plane" "(32 544 -96) (32 608 -96) (32 608 0)"
 			"material" "METAL/METALWALL048E"
 			"uaxis" "[0 1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4169,7 +4169,7 @@ world
 		side
 		{
 			"id" "6914"
-			"plane" "(64 608 -64) (64 544 -64) (64 544 0)"
+			"plane" "(64 608 -96) (64 544 -96) (64 544 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4180,7 +4180,7 @@ world
 		side
 		{
 			"id" "6913"
-			"plane" "(32 608 -64) (64 608 -64) (64 608 0)"
+			"plane" "(32 608 -96) (64 608 -96) (64 608 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4191,7 +4191,7 @@ world
 		side
 		{
 			"id" "6912"
-			"plane" "(64 544 -64) (32 544 -64) (32 544 0)"
+			"plane" "(64 544 -96) (32 544 -96) (32 544 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4223,7 +4223,7 @@ world
 		side
 		{
 			"id" "6922"
-			"plane" "(-544 608 -64) (-544 544 -64) (-512 544 -64)"
+			"plane" "(-544 608 -96) (-544 544 -96) (-512 544 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4234,7 +4234,7 @@ world
 		side
 		{
 			"id" "6921"
-			"plane" "(-544 544 -64) (-544 608 -64) (-544 608 0)"
+			"plane" "(-544 544 -96) (-544 608 -96) (-544 608 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4245,7 +4245,7 @@ world
 		side
 		{
 			"id" "6920"
-			"plane" "(-512 608 -64) (-512 544 -64) (-512 544 0)"
+			"plane" "(-512 608 -96) (-512 544 -96) (-512 544 0)"
 			"material" "METAL/METALWALL048E"
 			"uaxis" "[0 1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4256,7 +4256,7 @@ world
 		side
 		{
 			"id" "6919"
-			"plane" "(-544 608 -64) (-512 608 -64) (-512 608 0)"
+			"plane" "(-544 608 -96) (-512 608 -96) (-512 608 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4267,7 +4267,7 @@ world
 		side
 		{
 			"id" "6918"
-			"plane" "(-512 544 -64) (-544 544 -64) (-544 544 0)"
+			"plane" "(-512 544 -96) (-544 544 -96) (-544 544 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4299,7 +4299,7 @@ world
 		side
 		{
 			"id" "6928"
-			"plane" "(-512 640 -64) (-512 608 -64) (32 608 -64)"
+			"plane" "(-512 640 -96) (-512 608 -96) (32 608 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4310,7 +4310,7 @@ world
 		side
 		{
 			"id" "6927"
-			"plane" "(-512 608 -64) (-512 640 -64) (-512 640 0)"
+			"plane" "(-512 608 -96) (-512 640 -96) (-512 640 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4321,7 +4321,7 @@ world
 		side
 		{
 			"id" "6926"
-			"plane" "(32 640 -64) (32 608 -64) (32 608 0)"
+			"plane" "(32 640 -96) (32 608 -96) (32 608 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4332,7 +4332,7 @@ world
 		side
 		{
 			"id" "6925"
-			"plane" "(-512 640 -64) (32 640 -64) (32 640 0)"
+			"plane" "(-512 640 -96) (32 640 -96) (32 640 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4343,7 +4343,7 @@ world
 		side
 		{
 			"id" "6924"
-			"plane" "(32 608 -64) (-512 608 -64) (-512 608 0)"
+			"plane" "(32 608 -96) (-512 608 -96) (-512 608 0)"
 			"material" "METAL/METALWALL048E"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4364,7 +4364,7 @@ world
 		side
 		{
 			"id" "6935"
-			"plane" "(-512 544 -64) (-512 608 -64) (32 608 -64)"
+			"plane" "(-512 544 -96) (-512 608 -96) (32 608 -96)"
 			"material" "METAL/METALWALL048E"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 128] 0.25"
@@ -4375,7 +4375,7 @@ world
 		side
 		{
 			"id" "6934"
-			"plane" "(-512 608 -96) (-512 544 -96) (32 544 -96)"
+			"plane" "(-512 608 -128) (-512 544 -128) (32 544 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4386,7 +4386,7 @@ world
 		side
 		{
 			"id" "6933"
-			"plane" "(-512 544 -96) (-512 608 -96) (-512 608 -64)"
+			"plane" "(-512 544 -128) (-512 608 -128) (-512 608 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4397,7 +4397,7 @@ world
 		side
 		{
 			"id" "6932"
-			"plane" "(32 608 -96) (32 544 -96) (32 544 -64)"
+			"plane" "(32 608 -128) (32 544 -128) (32 544 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4408,7 +4408,7 @@ world
 		side
 		{
 			"id" "6931"
-			"plane" "(-512 608 -96) (32 608 -96) (32 608 -64)"
+			"plane" "(-512 608 -128) (32 608 -128) (32 608 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4419,7 +4419,7 @@ world
 		side
 		{
 			"id" "6930"
-			"plane" "(32 544 -96) (-512 544 -96) (-512 544 -64)"
+			"plane" "(32 544 -128) (-512 544 -128) (-512 544 -96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15130,7 +15130,7 @@ entity
 {
 	"id" "6986"
 	"classname" "trigger_multiple"
-	"origin" "-240 576 -60"
+	"origin" "-240 576 -76"
 	"spawnflags" "8"
 	"StartDisabled" "0"
 	"wait" "1"
@@ -15159,9 +15159,9 @@ entity
 		side
 		{
 			"id" "6140"
-			"plane" "(-512 608 -64) (-512 544 -64) (32 544 -64)"
+			"plane" "(-512 608 -96) (-512 544 -96) (32 544 -96)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -15170,7 +15170,7 @@ entity
 		side
 		{
 			"id" "6139"
-			"plane" "(-512 544 -64) (-512 608 -64) (-512 608 -56)"
+			"plane" "(-512 544 -96) (-512 608 -96) (-512 608 -56)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15181,7 +15181,7 @@ entity
 		side
 		{
 			"id" "6138"
-			"plane" "(32 608 -64) (32 544 -64) (32 544 -56)"
+			"plane" "(32 608 -96) (32 544 -96) (32 544 -56)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15192,7 +15192,7 @@ entity
 		side
 		{
 			"id" "6137"
-			"plane" "(-512 608 -64) (32 608 -64) (32 608 -56)"
+			"plane" "(-512 608 -96) (32 608 -96) (32 608 -56)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15203,7 +15203,7 @@ entity
 		side
 		{
 			"id" "6136"
-			"plane" "(32 544 -64) (-512 544 -64) (-512 544 -56)"
+			"plane" "(32 544 -96) (-512 544 -96) (-512 544 -56)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15522,6 +15522,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-44 294 180"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -15531,7 +15532,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg04"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -15989,6 +15989,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-184 294 116"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -15998,7 +15999,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg07"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5822"
@@ -16417,6 +16417,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-184 294 156"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -16426,7 +16427,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg06"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5806"
@@ -16979,6 +16979,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-228 294 248"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -16988,7 +16989,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg05"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5571"
@@ -17407,6 +17407,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-252 294 256"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -17416,7 +17417,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg04"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5563"
@@ -17835,6 +17835,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-272 294 268"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -17844,7 +17845,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg03"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5555"
@@ -18392,9 +18392,9 @@ entity
 		side
 		{
 			"id" "7194"
-			"plane" "(-512 608 -64) (-512 544 -64) (32 544 -64)"
+			"plane" "(-512 608 -96) (-512 544 -96) (32 544 -96)"
 			"material" "NATURE/HAZARD_LIQUID"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -18403,7 +18403,7 @@ entity
 		side
 		{
 			"id" "7193"
-			"plane" "(-512 544 -64) (-512 608 -64) (-512 608 0)"
+			"plane" "(-512 544 -96) (-512 608 -96) (-512 608 0)"
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -18414,7 +18414,7 @@ entity
 		side
 		{
 			"id" "7192"
-			"plane" "(32 608 -64) (32 544 -64) (32 544 0)"
+			"plane" "(32 608 -96) (32 544 -96) (32 544 0)"
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -18425,7 +18425,7 @@ entity
 		side
 		{
 			"id" "7191"
-			"plane" "(-512 608 -64) (32 608 -64) (32 608 0)"
+			"plane" "(-512 608 -96) (32 608 -96) (32 608 0)"
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -18436,7 +18436,7 @@ entity
 		side
 		{
 			"id" "7190"
-			"plane" "(32 544 -64) (-512 544 -64) (-512 544 0)"
+			"plane" "(32 544 -96) (-512 544 -96) (-512 544 0)"
 			"material" "NATURE/HAZARD_LIQUID"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -18617,6 +18617,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-204 294 228"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -18626,7 +18627,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg02"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -20525,6 +20525,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "24 294 308"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -20534,7 +20535,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg03"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -21004,6 +21004,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-204 290 316"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -21013,7 +21014,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg01"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -21715,6 +21715,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-416 294 180"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -21724,7 +21725,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg06"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -22391,6 +22391,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-288 294 288"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -22400,7 +22401,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg02"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5547"
@@ -23089,6 +23089,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-452 294 228"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -23098,7 +23099,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "opeg05"
-	"physdamagescale" "1.0"
 	connections
 	{
 		"OnBreak" "orange_peg_counter,Add,1,0,-1"
@@ -24312,7 +24312,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24377,7 +24377,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24442,7 +24442,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24507,7 +24507,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26149,14 +26149,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 204 193"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 204 193"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -26283,14 +26283,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 106 239"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 106 239"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -26308,7 +26308,7 @@ entity
 	"origin" "-12 604 244"
 	editor
 	{
-		"color" "0 184 137"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -26331,6 +26331,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-12 582 244"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -26340,7 +26341,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg13"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "6006"
@@ -26456,14 +26456,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 114 203"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 114 203"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -26596,14 +26596,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 108 181"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 108 181"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -26626,6 +26626,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-108 582 116"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -26635,7 +26636,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg12"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5997"
@@ -26751,14 +26751,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 194 139"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 194 139"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -26776,7 +26776,7 @@ entity
 	"origin" "-108 604 116"
 	editor
 	{
-		"color" "0 172 109"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -26903,14 +26903,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 118 131"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 118 131"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -27043,14 +27043,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 210 171"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 210 171"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -27073,6 +27073,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-348 582 84"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -27082,7 +27083,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg20"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "14095"
@@ -27198,14 +27198,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 252 237"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 252 237"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -27332,14 +27332,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 222 223"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 222 223"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -27357,7 +27357,7 @@ entity
 	"origin" "-348 604 84"
 	editor
 	{
-		"color" "0 128 157"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -27490,14 +27490,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 160 109"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 160 109"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -27520,6 +27520,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-460 582 196"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -27529,7 +27530,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg19"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "14062"
@@ -27645,14 +27645,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 130 215"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 130 215"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -27779,14 +27779,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 184 141"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 184 141"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -27804,7 +27804,7 @@ entity
 	"origin" "-460 604 196"
 	editor
 	{
-		"color" "0 134 107"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -27937,14 +27937,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 126 211"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 126 211"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -27967,6 +27967,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-380 582 212"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -27976,7 +27977,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg18"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "14051"
@@ -28092,14 +28092,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 204 173"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 204 173"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -28226,14 +28226,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 150 171"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 150 171"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -28251,7 +28251,7 @@ entity
 	"origin" "-380 604 212"
 	editor
 	{
-		"color" "0 100 201"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -28384,14 +28384,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 152 221"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 152 221"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -28414,6 +28414,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-412 582 260"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -28423,7 +28424,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg17"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "14029"
@@ -28539,14 +28539,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 146 183"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 146 183"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -28673,14 +28673,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 132 109"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 132 109"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -28698,7 +28698,7 @@ entity
 	"origin" "-412 604 260"
 	editor
 	{
-		"color" "0 162 227"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -28831,14 +28831,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 254 131"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 254 131"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -28861,6 +28861,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-364 582 292"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -28870,7 +28871,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg16"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5979"
@@ -28986,14 +28986,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 184 105"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 184 105"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -29120,14 +29120,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 130 243"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 130 243"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -29145,7 +29145,7 @@ entity
 	"origin" "-364 604 292"
 	editor
 	{
-		"color" "0 248 249"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -29277,14 +29277,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 206 227"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 206 227"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -29307,6 +29307,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-476 582 292"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -29316,7 +29317,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg15"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "14040"
@@ -29432,14 +29432,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 248 165"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 248 165"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -29566,14 +29566,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 134 231"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 134 231"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -29700,14 +29700,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 110 135"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 110 135"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -29725,7 +29725,7 @@ entity
 	"origin" "-108 604 228"
 	editor
 	{
-		"color" "0 156 249"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -29858,14 +29858,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 138 143"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 138 143"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -29888,6 +29888,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-108 582 228"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -29897,7 +29898,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg10"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5970"
@@ -30013,14 +30013,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 253"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 180 253"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -30147,14 +30147,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 196 117"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 196 117"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -30172,7 +30172,7 @@ entity
 	"origin" "-28 604 276"
 	editor
 	{
-		"color" "0 226 119"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -30195,6 +30195,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-28 582 276"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -30204,7 +30205,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg08"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5855"
@@ -30320,14 +30320,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 217"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 180 217"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -30460,14 +30460,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 106 107"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 106 107"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -30490,6 +30490,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "-108 294 260"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -30499,7 +30500,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg09"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "5961"
@@ -30615,14 +30615,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 108 225"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 108 225"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -30640,7 +30640,7 @@ entity
 	"origin" "-108 604 260"
 	editor
 	{
-		"color" "0 202 239"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -30767,14 +30767,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 172 145"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 172 145"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -30907,14 +30907,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 110 123"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 110 123"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -30937,6 +30937,7 @@ entity
 	"nodamageforces" "0"
 	"origin" "4 582 276"
 	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"propdata" "0"
 	"renderamt" "255"
@@ -30946,7 +30947,6 @@ entity
 	"spawnflags" "0"
 	"spawnobject" "0"
 	"targetname" "peg14"
-	"physdamagescale" "1.0"
 	solid
 	{
 		"id" "6015"
@@ -31062,14 +31062,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 212 169"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 212 169"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -31196,14 +31196,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 214 179"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 214 179"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -31221,7 +31221,7 @@ entity
 	"origin" "4 604 276"
 	editor
 	{
-		"color" "0 120 237"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -31354,17 +31354,113 @@ entity
 		}
 		editor
 		{
-			"color" "0 218 175"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 218 175"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19226"
+	"classname" "trigger_hurt"
+	"damage" "100"
+	"damagecap" "20"
+	"damagemodel" "0"
+	"damagetype" "1048576"
+	"nodmgforce" "1"
+	"origin" "-240 576 -52"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	solid
+	{
+		"id" "19227"
+		side
+		{
+			"id" "8675"
+			"plane" "(-512 544 -8) (-512 608 -8) (32 608 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8674"
+			"plane" "(-512 608 -96) (-512 544 -96) (32 544 -96)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8673"
+			"plane" "(-512 544 -96) (-512 608 -96) (-512 608 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8672"
+			"plane" "(32 608 -96) (32 544 -96) (32 544 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8671"
+			"plane" "(-512 608 -96) (32 608 -96) (32 608 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8670"
+			"plane" "(32 544 -96) (-512 544 -96) (-512 544 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
 	}
 }
 cameras
