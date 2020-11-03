@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "2207"
+	"mapversion" "2208"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2207"
+	"mapversion" "2208"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -125244,7 +125244,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "radio_music,FadeOut,5,0,1"
-		"OnStartTouch" "still_alive,FadeIn,5,0,1"
+		"OnStartTouch" "still_alive,PlaySound,,0,1"
 	}
 	solid
 	{
