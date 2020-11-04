@@ -5,7 +5,7 @@
 
 
 ## To install the map pack
- 1. Copy or move the "portal" folder (in the same location as this readme) to "C:\Program Files\Steam\steamapps\common\portal".
+ 1. Copy or move the “portal” folder (in the same location as this readme) to “C:\Program Files\Steam\steamapps\common\portal”.
    - On Windows 64-bit, replace “Program Files” with “Program Files (x86)”.  On older versions of Steam, replace “common” with your Steam username.
  2. Accept any folder merges (nothing should be overwritten unless you have downloaded an older version of PortalZ or you have the Portal: The Flash Version Mappack texture files, in which case the conflicting files should be identical).
 
