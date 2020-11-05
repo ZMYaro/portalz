@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "1184"
+	"mapversion" "1186"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1184"
+	"mapversion" "1186"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -25085,6 +25085,82 @@ world
 	}
 	solid
 	{
+		"id" "102778"
+		side
+		{
+			"id" "33980"
+			"plane" "(388 252 164) (388 256 164) (420 256 164)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33979"
+			"plane" "(388 256 132) (388 252 132) (420 252 132)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33978"
+			"plane" "(388 252 132) (388 256 132) (388 256 164)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33977"
+			"plane" "(420 256 132) (420 252 132) (420 252 164)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33976"
+			"plane" "(388 256 132) (420 256 132) (420 256 164)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33975"
+			"plane" "(420 252 132) (388 252 132) (388 252 164)"
+			"material" "SIGNAGE/SIGNAGE_EXIT"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 219 128"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "1303"
 		side
 		{
@@ -29028,82 +29104,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "96184"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "102778"
-		side
-		{
-			"id" "33980"
-			"plane" "(388 252 164) (388 256 164) (420 256 164)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33979"
-			"plane" "(388 256 132) (388 252 132) (420 252 132)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33978"
-			"plane" "(388 252 132) (388 256 132) (388 256 164)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33977"
-			"plane" "(420 256 132) (420 252 132) (420 252 164)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33976"
-			"plane" "(388 256 132) (420 256 132) (420 256 164)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33975"
-			"plane" "(420 252 132) (388 252 132) (388 252 164)"
-			"material" "SIGNAGE/SIGNAGE_EXIT"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 219 128"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -112122,6 +112122,7 @@ entity
 	"id" "98740"
 	"classname" "env_fade"
 	"duration" "0.5"
+	"holdtime" "0.25"
 	"renderamt" "255"
 	"rendercolor" "0 0 0"
 	"spawnflags" "1"
@@ -120657,7 +120658,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "entry_elevator_fade,Fade,,0,-1"
-		"OnStartTouch" "entry_elevator,Open,,0,-1"
+		"OnStartTouch" "entry_elevator,Open,,0.25,-1"
 		"OnStartTouch" "entry_elevator_teleport,Teleport,,0,-1"
 	}
 	solid
