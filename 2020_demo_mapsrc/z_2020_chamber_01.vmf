@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "819"
+	"mapversion" "820"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "819"
+	"mapversion" "820"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -52722,7 +52722,7 @@ entity
 	"id" "1004"
 	"classname" "trigger_once"
 	"hammerid" "19267"
-	"origin" "-1296 -224 320"
+	"origin" "-1304 -224 320"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"targetname" "tc00_introduce_emanc_gids"
@@ -52739,7 +52739,7 @@ entity
 		side
 		{
 			"id" "7250"
-			"plane" "(-1280 -256 384) (-1280 -256 256) (-1312 -256 256)"
+			"plane" "(-1296 -256 384) (-1296 -256 256) (-1312 -256 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -52750,7 +52750,7 @@ entity
 		side
 		{
 			"id" "7249"
-			"plane" "(-1312 -192 384) (-1312 -192 256) (-1280 -192 256)"
+			"plane" "(-1312 -192 384) (-1312 -192 256) (-1296 -192 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -52761,7 +52761,7 @@ entity
 		side
 		{
 			"id" "7248"
-			"plane" "(-1280 -192 384) (-1280 -192 256) (-1280 -256 256)"
+			"plane" "(-1296 -192 384) (-1296 -192 256) (-1296 -256 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -52783,7 +52783,7 @@ entity
 		side
 		{
 			"id" "7246"
-			"plane" "(-1312 -256 256) (-1280 -256 256) (-1280 -192 256)"
+			"plane" "(-1296 -192 256) (-1312 -192 256) (-1312 -256 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -52794,7 +52794,7 @@ entity
 		side
 		{
 			"id" "7245"
-			"plane" "(-1280 -256 384) (-1312 -256 384) (-1312 -192 384)"
+			"plane" "(-1296 -256 384) (-1312 -256 384) (-1312 -192 384)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -108167,6 +108167,97 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "65972"
+	"classname" "trigger_autosave"
+	"DangerousTimer" "0"
+	"MinimumHitPoints" "0"
+	"NewLevelUnit" "0"
+	solid
+	{
+		"id" "65970"
+		side
+		{
+			"id" "19689"
+			"plane" "(-1296 -192 384) (-1280 -192 384) (-1280 -256 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19688"
+			"plane" "(-1296 -256 256) (-1280 -256 256) (-1280 -192 256)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19687"
+			"plane" "(-1296 -192 384) (-1296 -256 384) (-1296 -256 256)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19686"
+			"plane" "(-1280 -192 256) (-1280 -256 256) (-1280 -256 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19685"
+			"plane" "(-1280 -192 384) (-1296 -192 384) (-1296 -192 256)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19684"
+			"plane" "(-1280 -256 256) (-1296 -256 256) (-1296 -256 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
