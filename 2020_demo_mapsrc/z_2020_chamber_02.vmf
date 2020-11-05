@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "816"
+	"mapversion" "817"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "816"
+	"mapversion" "817"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -47959,7 +47959,6 @@ entity
 	"angles" "0 180 0"
 	"DamageForce" "1"
 	"spawnflags" "0"
-	"targetname" "first_turret"
 	"origin" "832 224 0"
 	editor
 	{
@@ -47978,7 +47977,6 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "first_turret,FireBullet,,0.05,-1"
 		"OnStartTouch" "portalgun_stand_rotater,Stop,,1.5,-1"
 		"OnStartTouch" "portalgun,FirePortal1,,2,-1"
 		"OnStartTouch" "portalgun_stand_rotater,Start,,0,-1"
