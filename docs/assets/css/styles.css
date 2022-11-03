@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+	--link-color: #0089c9;
+	--nav-background-color: #cccccc;
+	--nav-background-color-hover: #f3f3f3;
+	--nav-background-color-current: #ffffff;
+	--nav-text-color: #666666;
+	--nav-text-color-hover: #000000;
+	--nav-text-color-current: #000000;
+	--nav-accent-color: #52a1d2;
+	--nav-submenu-open-duration: 0.2s;
+}
+
+/* Page elements */
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+	a:hover,
+	a:focus {
+		text-decoration: underline;
+	}
+
+h1 {
+	font-family: 'Offside', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0.75em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: large;
+	font-weight: normal;
+}
+
+p,
+.credits li {
+	font-size: small;
+	margin: 0 0 1.25em;
+}
+
+time {
+	font-size: x-small;
+}
+
+hr {
+	border: 0;
+    background-color: rgba(0, 0, 0, 0.08);
+    height: 1px;
+	margin: 1.5em auto;
+}
+
+figure img {
+	display: block;
+	width: 100%;
+}
+
+
+/* General structure */
+
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	
+	background-color: #040000;
+	background-image: url('../img/metal_tiles.jpg');
+	font-family: Arial, sans-serif;
+}
+
+header,
+nav,
+main {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+header img {
+	display: block;
+	margin: 12px auto;
+	max-width: 90%;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+	nav ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	nav a {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: var(--nav-text-color);
+	}
+		nav a:hover,
+		nav a:focus {
+			color: var(--nav-text-color-hover);
+			text-decoration: none;
+		}
+	nav > ul > li {
+		display: inline-block;
+		position: relative;
+	}
+		nav > ul > li > a {
+			display: inline-block;
+			margin: 0 2px;
+			padding: 10px 10px 9px;
+			
+			background-color: var(--nav-background-color);
+			border-bottom: 1px solid var(--nav-text-color);
+			
+			transition: margin 0.2s;
+		}
+		@media (min-width: 600px) {
+			nav > ul > li > a {
+				margin: 0 8px;
+			}
+		}
+			nav > ul > li > a:hover,
+			nav > ul > li > a:focus {
+				background-color: var(--nav-background-color-hover);
+				color: var(--nav-text-color-hover);
+				padding-bottom: 8px;
+				border-bottom-width: 2px;
+				border-bottom-color: var(--nav-accent-color);
+			}
+			nav > ul > li > a:has(+ .nav-submenu:hover),
+			nav > ul > li > a:has(+ .nav-submenu:focus-within) {
+				/* Separate to not break browsers that do not support :has */
+				background-color: var(--nav-background-color-hover);
+				color: var(--nav-text-color-hover);
+				padding-bottom: 8px;
+				border-bottom-width: 2px;
+				border-bottom-color: var(--nav-accent-color);
+			}
+			nav > ul > li > a.current {
+				background-color: var(--nav-background-color-current);
+				color: var(--nav-text-color-current);
+				padding-bottom: 8px;
+				border-bottom-width: 2px;
+				border-bottom-color: var(--nav-accent-color);
+			}
+.nav-submenu {
+	position: absolute;
+	margin: 0;
+	
+	font-size: 87.5%;
+	background-color: var(--nav-background-color-current);
+	border: 1px solid #dddddd;
+	
+	transform: scaleY(0);
+	transform-origin: center top;
+	transition-property: transform;
+	transition-duration: var(--nav-submenu-open-duration);
+}
+	.nav-submenu > li > a {
+		display: block;
+		
+		padding: 6px 16px;
+		white-space: nowrap;
+		background-color: white;
+		
+		transform: scaleY(2);
+		transform-origin: center top;
+		transition-property: transform;
+		transition-duration: var(--nav-submenu-open-duration);
+	}
+		.nav-submenu > li:first-child > a {
+			padding-top: 10px;
+		}
+		.nav-submenu > li:last-child > a {
+			padding-bottom: 10px;
+		}
+	a:hover + .nav-submenu,
+	a:hover + .nav-submenu > li > a,
+	.nav-submenu:hover,
+	.nav-submenu:hover > li > a,
+	a:focus + .nav-submenu,
+	a:focus + .nav-submenu > li > a,
+	.nav-submenu:focus-within,
+	.nav-submenu:focus-within > li > a {
+		transform: scaleY(1);
+	}
+
+main {
+	padding: 4px 12px;
+	line-height: 1.5;
+	
+	background-color: #f8f9f5;
+	background-image: url('../img/concrete.jpg');
+	
+	transition: width 0.2s, padding 0.2s;
+}
+	main.unconstrained-width {
+		min-width: 80%;
+	}
+@media (min-width: 600px) {
+	main {
+		padding: 16px 48px;
+		width: calc(100% - 32px);
+	}
+}
+
+footer {
+	margin: 2em auto;
+	text-align: center;
+	font-size: 75%;
+	color: #c0c0c0;
+}
+
+.col3 {
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	font-size: small;
+}
+	.col3 li {
+		display: inline-block;
+		width: 100%;
+		margin: 0 0 1em;
+		vertical-align: top;
+	}
+	@media (min-width: 340px) {
+		.col3 li {
+			width: 47%;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+	}
+	@media (min-width: 600px) {
+		.col3 li {
+			width: 30%;
+			margin-left: 1.3%;
+			margin-right: 1.3%;
+		}
+	}
+	.col3 a,
+	.col3 .disabled-link {
+		display: inline-block;
+		font-size: large;
+	}
+	.col3 h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.25em;
+		font-weight: normal;
+	}
+	.col3 img {
+		width: 100%;
+	}
+	
+
+/* Page-specific */
+
+.credits {
+	list-style-type: none;
+}
+
+.spoiler-warning {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: medium;
+	font-style: italic;
+}
+
+.rename-note {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: small;
+	font-style: italic;
+	margin-bottom: 0.25em;
+	opacity: 0.9;
+}
+	.rename-note i,
+	.spoiler-warning i {
+		font-style: normal;
+	}
+
+.spoiler {
+	background-color: currentcolor;
+}

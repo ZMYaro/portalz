@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}PortalZ</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<a href="/">
+				<img src="{{ site.gh_img_url }}logos/logo_transparent.png" alt="PortalZ." />
+			</a>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="/"{% if page.section == 'home' %} class="current"{% endif %}>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="/downloads"{% if page.section == 'downloads' %} class="current"{% endif %}>
+						Downloads
+					</a>
+					<ul class="nav-submenu">
+						<li>
+							<a href="https://sites.google.com/site/zmappack/downloads/demo">The First Slice</a>
+						</li>
+						<li>
+							<a href="https://sites.google.com/site/zmappack/downloads/2020">The 2020 Slice</a>
+						</li>
+						<li>
+							<a href="https://sites.google.com/site/zmappack/downloads/preview">Preview Chambers</a>
+						</li>
+						<li>
+							<a href="https://sites.google.com/site/zmappack/downloads/assets">Materials &amp; Sounds</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="/media"{% if page.section == 'media' %} class="current"{% endif %}>
+						Media
+					</a>
+					<ul class="nav-submenu">
+						<li>
+							<a href="/media/zc01">Z Chamber 00/01 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc02">Z Chamber 02 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc03">Z Chamber 03 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc06">Z Chamber 06 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc07">Z Chamber 07 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc09">Z Chamber 09 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc11">Z Chamber 11 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc12">Z Chamber 12 Media</a>
+						</li>
+						<li>
+							<a href="/media/zc13">Z Chamber 13 Media</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="/commentary"{% if page.section == 'commentary' %} class="current"{% endif %}>
+						Developer Commentary
+					</a>
+					<ul class="nav-submenu">
+						<li>
+							<a href="/commentary/zc01">Z Chamber 00/01 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc02">Z Chamber 02 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc03">Z Chamber 03 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc04">Z Chamber 04 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc06">Z Chamber 06 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc07">Z Chamber 07 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc09">Z Chamber 09 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc10">Z Chamber 10 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc11">Z Chamber 11 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc12">Z Chamber 12 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc13">Z Chamber 13 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc15">Z Chamber 15 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc18">Z Chamber 18 Commentary</a>
+						</li>
+						<li>
+							<a href="/commentary/zc20">Z Chamber 20 Commentary</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<main{% if page.section == 'downloads' or page.section == 'media' %} class="uncontrained-width"{% endif %}>
+			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+			{{ content }}
+		</main>
+		<footer>
+			&copy;2009-2022 <a href="https://zmyaro.com" target="_blank">Zachary Yaro</a>
+			&middot;
+			<a href="https://ko-fi.com/ZMYaro" target="_blank">Buy me a cuppa</a>
+		</footer>
+	</body>
+</html>
