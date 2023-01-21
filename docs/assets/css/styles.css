@@ -59,10 +59,20 @@ hr {
 	margin: 1.5em auto;
 }
 
-figure img {
+figure img,
+figure iframe {
 	display: block;
 	width: 100%;
 }
+	figure iframe {
+		height: 320px;
+	}
+	@supports (aspect-ratio: 16 / 9) {
+		figure iframe {
+			height: auto;
+			aspect-ratio: 16 / 9;
+		}
+	}
 
 
 /* General structure */
